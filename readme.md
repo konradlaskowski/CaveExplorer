@@ -35,8 +35,9 @@ c może przyjmować wartość 0 lub 1.
 1 oznacza, że korytarz jest trudny.
 
 Przykład:
-8 5       --> 8 komnat w tym 5 zewnetrznych
-1 3 0     --> korytarz z komnaty 1 do 3 jest łatwy (0)
+```
+8 5       --> 8 komnat w tym 5 zewnetrznych \n
+1 3 0     --> korytarz z komnaty 1 do 3 jest łatwy (0) \n
 3 2 0
 7 3 1     --> korytarz z komnaty 7 do 3 jest trudny(1)
 7 2 0         itd.
@@ -49,6 +50,8 @@ Przykład:
 2 4 0
 5 1 0
 
+```
+
 
 # Dane wyjściowe:
 Ciąg n liczb całkowitych oddzielonych pojedynczymi spacjami.
@@ -56,7 +59,9 @@ Pierwsza liczba to zawsze 1, reprezentująca numer komnaty wejściowej.
 Kolejne n-1 liczb to numery kolejnych komnat trasy zwiedzania.
 
 Przykład:
+```
 1 5 4 6 8 7 2 3
+```
 W powyższym przykładzie:
 
 Komnata wejściowa ma numer 1.
@@ -77,24 +82,24 @@ Powyższa ścieżka jest jednym z możliwych poprawnych wyników, które spełni
 
 1. Sklonuj repozytorium:
   
-   git clone 
+   `git clone`
 
 2. Przejdź do folderu projektu:
 
-   cd my-app
+   `cd my-app`
 
 
 3. Skompiluj i zbuduj projekt:
    
-   mvn clean install
+   `mvn clean install`
    
 
 4. Uruchom aplikację:
    
-   mvn exec:java
+   `mvn exec:java`
 
 # Testy:
 
 Aby uruchomić testy, użyj poniższego polecenia w katalogu głównym projektu:
 
-   mvn test
+   `mvn test`
